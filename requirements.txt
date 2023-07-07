@@ -1,0 +1,8 @@
+pymodbus
+paho-mqtt
+pyserial
+flask
+gunicorn
+requests
+psycopg2-binary
+pyyaml
