@@ -8,5 +8,5 @@ services:
     network_mode: "host"
     environment:
       - LANG=en_US.UTF-8
-    devices:
-      - /dev/ttyUSB0:/dev/ttyUSB0
+    # devices:
+    #   - /dev/ttyUSB0:/dev/ttyUSB0

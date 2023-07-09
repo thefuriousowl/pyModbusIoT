@@ -1,5 +1,4 @@
 import struct
-from decimal import Decimal, InvalidOperation
 
 # SLAVE/MASTER READ DEFINITION
 class ModbusReadDefinitionParam:

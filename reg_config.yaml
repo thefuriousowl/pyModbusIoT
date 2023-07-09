@@ -1,10 +1,10 @@
 # List must contain value in this format >>> [SLAVE_ID, REG_ADDRESS, DATA_TYPE, BYTEORDER, BYTESWAP, FUNCTION_CODE]
 # SLAVE_ID: 1
-# INT_VAL01: [1, 1,"int16","N","N", 3]
-# INT_VAL02: [1, 2, "int16","N","N", 3]
-# INT_VAL03: [1, 3, "int16","N","N", 3]
-# INT_VAL04: [1, 4, "int16","N","N", 3]
-# INT_VAL05: [1, 5, "int16", "N", "N", 3]
+INT_VAL01: [1, 1,"int16","N","N", 3]
+INT_VAL02: [1, 2, "int16","N","N", 3]
+INT_VAL03: [1, 3, "int16","N","N", 3]
+INT_VAL04: [1, 4, "int16","N","N", 3]
+INT_VAL05: [1, 5, "int16", "N", "N", 3]
 # INT_VAL06: [1, 6,"int16","N","N", 3]
 # INT_VAL07: [1, 7, "int16","N","N", 3]
 # INT_VAL08: [1, 8, "int16","N","N", 3]
@@ -30,7 +30,7 @@
 # FLOAT_VAL13: [1, 40, "float32", "big", "N", 3] # AB CD
 # FLOAT_VAL14: [1, 42, "float32", "big", "byte-swap", 3] # BA DC
 # FLOAT_VAL15: [1, 44, "float32", "little", "N", 3] # DC BA
-OilInWater: [1, 1, "float32", "big", "byte-swap", 4]
-PH: [1, 3, "float32", "big", "byte-swap", 4]
-TEMP: [1, 5, "float32", "big", "byte-swap", 4]
+# OilInWater: [1, 1, "float32", "big", "byte-swap", 3]
+# PH: [1, 3, "float32", "big", "byte-swap", 3]
+# TEMP: [1, 5, "float32", "big", "byte-swap", 3]
 # O2: [1, 20, "float32", "little", "N", 4]

@@ -8,4 +8,6 @@ RUN pip install -r requirements.txt
 COPY . /usr/src/app/
 
 # Start the Flask application using gunicorn
-CMD ["gunicorn", "-b", "0.0.0.0:33101", "app:app"]
+ENTRYPOINT [ "python" ]
+CMD [ "wsgi.py" ]
+# CMD ["gunicorn", "-b", "0.0.0.0:33101","--timeout=30", "--threads=10", "app:app"]
